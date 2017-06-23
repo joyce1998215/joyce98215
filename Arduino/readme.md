@@ -20,7 +20,7 @@ void loop() {
 
   for (int i = 4; i <= 12; i = i + 2) {  
   
-    digitalWrite(i, HIGH);  
+  digitalWrite(i, HIGH);  
     
   }  
   
@@ -28,17 +28,17 @@ void loop() {
   
   for (int i = 4; i <= 12; i = i + 2) {  
   
-    digitalWrite(i, LOW);  
+  digitalWrite(i, LOW);  
     
-    delay(500);  
+  delay(500);  
     
   }  
   
   for (int i = 4; i <= 12; i = i + 2) {  
   
-    digitalWrite(i, HIGH);  
+  digitalWrite(i, HIGH);  
     
-    delay(500);  
+  delay(500);  
     
   }  
   
